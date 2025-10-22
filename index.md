@@ -1,28 +1,31 @@
 ---
-title: Getting Started
+title: 1920s Popular Music
 layout: base
-date: 2024-12-02
+date: 2025-10-21
 ---
 
+{% include jumbotron.html
+  height="50vh"
+  image-path="/assets/images/396-banner.jpg"
+  title=""
+%}
 
-# Your home page
+# Popular Music in the 1920s
 
 {% include figure.html
   class="right"
   width="33%"
-  caption="Xanthan chemical structure"
-  image-path="/assets/images/Xanthan.svg"
+  caption="Duke Ellington in New York City"
+  image-path="/assets/images/duke-ellington-nyc.jpg"
   source-url="https://commons.wikimedia.org/wiki/File:Xanthan.svg"
 %}
 
-Xanthan is a simple website template that makes it easy to share humanities work online in an open and sustainable way. Your digital projects can be hosted for free, always accessible, easy to update, and remain available until you decide otherwise.
+Welcome! On this site you will find webpages created by students in HIST 396-06 The History of Popular Music in the United States, 1830-1940. Each team of students was assigned a song made popular by a particular artist in the 1920s. They were asked to ask questions about the song and artist, and to explore what the song can tell us about the social and historical context in which it was created. 
 
-At its core, Xanthan supports creative approaches to scholarship and teaching. It includes features for digital storytelling---such as a StoryMap-style interface---that invite you to present research in ways that are visually engaging and intellectually compelling.
+<br style="clear: both">
 
-Unlike commercial platforms such as Wix or Squarespace, Xanthan emphasizes openness and durability over quick customization. Updating your site takes a little more attention to detail, but you don’t need any technical background to get started. 
+{% assign essays = site.pages | where_exp: "page", "page.path contains 'essays/'" %}
 
-The goal is to provide a gentle path into digital publishing that foregrounds design and storytelling as essential tools for communicating about the humanities.
+{% include card-grid.html cards = essays %}
 
-For more information about your site works, see the `Website Guides` tab.
-
-For more on adding features to your pages, see the documentation under the `Page Components` tab.
+<br style="clear: both">

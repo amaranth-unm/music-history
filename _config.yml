@@ -1,1 +1,7 @@
 baseurl: /music-history/
+repository: amaranth-unm/music-history
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "base"

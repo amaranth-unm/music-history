@@ -11,28 +11,29 @@ PAGE SETUP
   box-sizing: border-box;
 }
 
-/* Minimalist mountain palette */
+/* Recommended palette for 1920s popular music */
+
 :root {
-  --pine: #394e42;         /* Deep pine green */
-  --lichen: #c3d0b7;       /* Soft lichen green */
-  --snow: #fefffe;         /* Pure snow white */
-  --granite: #2c2c2c;      /* Charcoal granite */
-  --fog: #ededed;          /* Light gray-green */
-  --cedar: #7d8471;        /* Muted cedar green */
+  --onyx: #0E0E0E;            /* Deep onyx black – elegant and dramatic */
+  --champagne-gold: #D4AF37;  /* Classic Art Deco metallic gold accent */
+  --oxblood: #5A1A1A;         /* Rich oxblood red – evokes velvet & nightlife */
+  --midnight-teal: #1B4D4F;   /* Dark teal – sophisticated with a jazz-age vibe */
+  --porcelain: #F4EDE4;       /* Warm ivory-porcelain – balances darker hues */
+  --graphite: #2E2E2E;        /* Soft charcoal grey – for subtle depth */
 
   /* Semantic assignments */
-  --text-primary: var(--granite);
-  --text-secondary: #4a4a4a;
-  --text-muted: #7a7a7a;
-  --text-link: var(--pine);
+  --text-primary: var(--porcelain);
+  --text-secondary: #E5D8C8;
+  --text-muted: #B7AFA4;
+  --text-link: var(--champagne-gold);
 
-  --bg-primary: var(--snow);
-  --bg-secondary: var(--fog);
-  
-  --accent: var(--pine);
-  --accent-hover: var(--lichen);
-  
-  --border: var(--pine);
+  --bg-primary: var(--onyx);
+  --bg-secondary: var(--graphite);
+
+  --accent: var(--champagne-gold);
+  --accent-hover: var(--oxblood);
+
+  --border: var(--champagne-gold);
 }
 
 html, body {

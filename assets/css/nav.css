@@ -18,6 +18,10 @@ TOPNAV
 }
 
 .navbar-brand {
+  font-family: 'Poiret One', sans-serif !important;
+  font-weight: normal;  /* Poiret One only has one weight, so treat accordingly */
+  letter-spacing: 0.05em; /* optional for vintage touch */
+  text-transform: uppercase; /* optional if you want strong vintage poster feel */
   font-size: 1.5rem;
   font-weight: bold !important;
   text-decoration: none;

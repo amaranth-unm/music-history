@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;700&display=swap');
@@ -13,13 +14,17 @@ TYPOGRAPHY
 html, body {
   font-family: 'Lora', sans-serif;
   font-size: 1rem; /* 16px is base font size */
+  color: var(--text-primary);
   line-height: 1.4em;
 }
 
 /* base font settings */
 h1, h2, h3, h4, h5 {
-  font-family: 'Source Sans 3', sans-serif;
-  text-align: left;
+  font-family: 'Poiret One', sans-serif;
+  font-weight: normal;  /* Poiret One only has one weight, so treat accordingly */
+  color: var(--accent);
+  letter-spacing: 0.05em; /* optional for vintage touch */
+  text-transform: uppercase; /* optional if you want strong vintage poster feel */
 }
 
 h1 {
