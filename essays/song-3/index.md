@@ -4,9 +4,9 @@ position: 3
 author: Student Name
 layout: base
 date: 2025-10-21
-thumbnail: images/seedling-card.png
+thumbnail: images/hot-notes-colors-3-red.jpeg
 summary: Write the summary of your webpage here
-header-image: images/seedling-card.png
+header-image: images/hot-notes-colors-3-red.jpeg
 header-title: 
 header-position: 0px
 geo: [37.88, -81.08]
