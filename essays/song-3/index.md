@@ -1,5 +1,6 @@
 ---
 title: Song 3
+position: 3
 author: Student Name
 layout: base
 date: 2025-10-21
