@@ -1,5 +1,6 @@
 ---
 title: Song 6
+position: 1
 author: Student Name
 layout: base
 date: 2025-10-21
@@ -16,8 +17,7 @@ tags:
     - campus
 ---
 
-# Group 6
-# A Page for Your Group's Song
+# A Page for Group 6's Song
 This template shows a basic essay with a few images, captions, and section headings. The design difficulty of this template is 'Seedling' level.
 
 Most of the text is just dummy text to keep the focus on the page elements.

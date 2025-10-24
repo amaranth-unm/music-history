@@ -16,8 +16,9 @@ Information about creating a markdown file as a group.
 
 ## Step 2: Managing Image Files
 
-The group member in charge of pasting your markdown file into the template will also need to place image files correctly into the website directory.
+When you download an image for inclusion on your webpage, please change its name according to the following instructions:
 
-Please follow these instructions for images:
-- Do not use capital letters or spaces in image file names. Please rename the file so that it is all lowercase and there are hypens in between words. (Example: big-image-of-the-band.jpg)
-- Ensure that the image file type matches that you typed into the markdown file. A common mistake that leads to a broken image link happens when people type jpg instead of png or jpeg at the end of the file name. Use copy-paste to avoid this.
+- Rename the image to reflect its content.
+- Do not use capital letters or spaces in image file names. 
+- Please rename the file so that it is all lowercase and there are hypens in between words. (Example: big-image-of-the-band.jpg)
+- When you reference your image in the markdown file, ensure that the image file extension matches exactly the file you uploaded. Your image will not work if you type jpg instead of png or jpeg at the end of the file name. Use copy-paste to avoid this.

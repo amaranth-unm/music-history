@@ -16,8 +16,7 @@ tags:
     - campus
 ---
 
-# Group 5
-# A Page for Your Group's Song
+# A Page for Group Five's Song
 This template shows a basic essay with a few images, captions, and section headings. The design difficulty of this template is 'Seedling' level.
 
 Most of the text is just dummy text to keep the focus on the page elements.
