@@ -4,9 +4,9 @@ position: 2
 author: Dallas Grassbaugh, Ashlynn Luna, Isabella (Bella)Allred
 layout: base
 date: 2025-10-21
-thumbnail: music-history/song-2/images/IMG_0014.jpeg
+thumbnail: /images/BWJ.jpg
 summary: Dark Was The Night, Cold Was The Ground By Blind Willie Johnson was a song of universal proportions. With no other song like it at its time this song expresses the pain and suffering humanity faces throughout their lives.
-header-image: music-history/song-2/images/IMG_0014.jpeg
+header-image: /images/BWJ.jpg
 header-title: 
 header-position: 0px
 geo: [37.88, -81.08]
