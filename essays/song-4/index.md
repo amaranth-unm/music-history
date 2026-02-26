@@ -5,7 +5,7 @@ author: Student Name
 layout: base
 date: 2025-10-21
 thumbnail: images/1761596419.17553.jpg
-summary: Write the summary of your webpage here
+summary: Crazy Blues by Mamie Smith was the first blues song recorded by an African American woman in the United States.
 header-image: images/sddefault.jpg
 header-title: 
 header-position: 0px

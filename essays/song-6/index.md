@@ -5,7 +5,7 @@ author: Team Lebron
 layout: base
 date: 2025-10-21
 thumbnail: images/Maybelle-A.P.-Sarah-Carter.jpg
-summary: Write the summary of your webpage here
+summary: Wildwood Flower’s virality and success was caused by innovation and exposure created by new technology in the early 1900s. 
 header-image: images/banner-carter-1.jpg
 header-title: 
 header-position: 0px

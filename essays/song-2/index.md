@@ -4,7 +4,7 @@ position: 2
 author: Dallas Grassbaugh, Ashlynn Luna, Isabella (Bella)Allred
 layout: base
 date: 2025-10-21
-thumbnail: /images/BWJ.jpg
+thumbnail: /images/bwj0226.jpg
 summary: A song of universal proportions. With no other song like it at its time this song expresses the pain and suffering humanity faces throughout their lives.
 header-image: /images/BWJ.jpg
 header-title: 
