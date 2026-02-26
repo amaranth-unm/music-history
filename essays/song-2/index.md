@@ -6,7 +6,7 @@ layout: base
 date: 2025-10-21
 thumbnail: /images/bwj0226.jpg
 summary: A song of universal proportions. With no other song like it at its time this song expresses the pain and suffering humanity faces throughout their lives.
-header-image: /images/BWJ.jpg
+header-image: /images/blindwillie2.JPG
 header-title: 
 header-position: 0px
 geo: [37.88, -81.08]

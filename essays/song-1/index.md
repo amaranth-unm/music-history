@@ -21,7 +21,7 @@ tags:
 {% include figure.html 
 class="right" 
 width="48%" 
-caption="“Handbill for the Douglass Theatre advertising films, probably 1929 Dec. 1,” [Digital Public Library of America](https://dp.la/primary-source-sets/women-and-the-blues/sources/436)" 
+caption="Handbill for the Douglass Theatre advertising films, probably 1929 Dec. 1 [Digital Public Library of America](https://dp.la/primary-source-sets/women-and-the-blues/sources/436)" 
 image-path="images/1929 handbill2.png" 
 %}
 
