@@ -4,9 +4,9 @@ position: 1
 Authors: Lauren Duewall, Elizabeth Muirhead, M. Roman Ubias
 layout: base
 date: 2025-10-21
-thumbnail: images/hot-notes-colors-1-green.jpeg
-summary: Write the summary of your webpage here
-header-image: images/hot-notes-colors-1-green.jpeg
+thumbnail: images/1929 handbill2.png
+summary: Bessie Smith and the Blues Craze
+header-image: images/1929 handbill2.png
 header-title: 
 header-position: 0px
 geo: [37.88, -81.08]
@@ -21,11 +21,9 @@ tags:
 {% include figure.html 
 class="right" 
 width="48%" 
-caption="“Handbill for the Douglass Theatre advertising films, probably 1929 Dec. 1,” Digital Public Library of America, https://dp.la/item/72d7fefeebb596e41b661e4bdbaac364. [Source]([https://rmoa.unm.edu/docviewer.php?docId=nmu1unma028.xml](https://dp.la/primary-source-sets/women-and-the-blues/sources/436))" 
+caption="“Handbill for the Douglass Theatre advertising films, probably 1929 Dec. 1,” [Digital Public Library of America](https://dp.la/primary-source-sets/women-and-the-blues/sources/436)" 
 image-path="images/1929 handbill2.png" 
 %}
-
-[^1]: 'This is the footnote text. But I _really want_ italics.
 
 The Blues are one of the most rooted genres in music, and its origin dates back to the 1920s. When people think of the Roaring Twenties they often think about flappers, lavish parties, and lots of wealth, however, the blues is also a piece of that time in history. Its origin dates back to African American peoples in the South, who made music as a form of expression. This genre produced countless sorrowful, country-esque songs, and one of the most famous is titled “St. Louis Blues” performed by Bessie Smith.
 
