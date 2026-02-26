@@ -6,7 +6,7 @@ layout: base
 date: 2025-10-21
 thumbnail: images/smith-handbill-3.jpg
 summary: This song, by Bessie Smith, is known as one of the most fundamental songs of the Blues Era.
-header-image: images/smith-handbill-3.jpg
+header-image: images/smith-handbill-3-crop.jpg
 header-title: 
 header-position: 0px
 geo: [37.88, -81.08]
