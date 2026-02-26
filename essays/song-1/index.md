@@ -4,9 +4,9 @@ position: 1
 Authors: Lauren Duewall, Elizabeth Muirhead, M. Roman Ubias
 layout: base
 date: 2025-10-21
-thumbnail: images/1929 handbill2.png
-summary: Bessie Smith and the Blues Craze
-header-image: images/1929 handbill2.png
+thumbnail: images/smith-handbill-3.jpg
+summary: This song, by Bessie Smith, is known as one of the most fundamental songs of the Blues Era.
+header-image: images/smith-handbill-3.jpg
 header-title: 
 header-position: 0px
 geo: [37.88, -81.08]
