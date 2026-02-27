@@ -391,11 +391,11 @@ footer {
   border-top: 2px solid var(--border);
 }
 
-footer-description {
+.footer-description {
   justify-content: center;
 }
 
-footer-description p {
+.footer-description p {
   line-height: 1rem;
   margin-bottom: 0px;
 }
