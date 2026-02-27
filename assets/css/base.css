@@ -392,7 +392,12 @@ footer {
 }
 
 footer-description {
-  text-align: center;
+  justify-content: center;
+}
+
+footer-description p {
+  line-height: 1rem;
+  margin-bottom: 0px;
 }
 
 /* for a footer on top of the UNM footer */
