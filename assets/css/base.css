@@ -391,6 +391,10 @@ footer {
   border-top: 2px solid var(--border);
 }
 
+footer-description {
+  text-align: center;
+}
+
 /* for a footer on top of the UNM footer */
 .site-footer {
   font-size: 0.9rem;
