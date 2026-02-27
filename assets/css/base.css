@@ -216,6 +216,10 @@ figure {
   /* no bottom padding; handled with caption */
 }
 
+figure a {
+  border-bottom: none;
+}
+
 .right {
   float:right;
   margin-left: 2rem;
