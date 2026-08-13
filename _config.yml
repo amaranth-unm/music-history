@@ -1,4 +1,5 @@
-baseurl: /music-history/
+baseurl: /music-history
+repository: amaranth-unm/music-history
 defaults:
   - scope:
       path: ""

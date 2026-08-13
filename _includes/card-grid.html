@@ -1,21 +1,47 @@
-{% assign cards = include.cards | sort_natural: "position" %}
+{% assign cards = include.cards | sort_natural: "position" | slice: 0, 6 %}
 
-<!-- change row-cold-md-2 to 3 or 4 for different number of cols -->
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  {% for card in cards %}
-  {% if card.title and card.summary %}
-  <div class="col">
-    <div class="card v-card h-100">
-      {% assign card_href = card.link | default: card.url %}
-      <a href="{{ card.url | relative_url }}">
-        <img src="{{site.baseurl}}{{ card.dir }}{{ card.thumbnail }}" class="card-img-top" alt="...">      
-        <div class="card-body">
-          <h3 class="card-title">{{ card.title }}</h3>
-          <p class="card-text">{{ card.summary }}</p>
+<div class="musical-note-grid">
+  <div class="staff-row">
+    {% for card in cards limit: 3 %}
+    {% if card.title and card.summary %}
+    {% assign card_href = card.link | default: card.url %}
+    <article class="note-card note-card-row-1 song-card-{{ card.position }}">
+      <a href="{{ card_href | relative_url }}" class="note-link" aria-label="Read {{ card.title }}">
+        <div class="note-head">
+          <div class="note-inner">
+            <img src="{{ site.baseurl }}{{ card.dir }}{{ card.thumbnail }}" class="note-thumb" alt="{{ card.title }} cover image">
+            <div class="note-copy">
+              <div class="card-meta">Essay</div>
+              <h3 class="card-title">{{ card.title }}</h3>
+              <p class="card-text">{{ card.summary }}</p>
+            </div>
+          </div>
         </div>
       </a>
-    </div>
+    </article>
+    {% endif %}
+    {% endfor %}
   </div>
-  {% endif %}
-  {% endfor %}
+
+  <div class="staff-row staff-row-second">
+    {% for card in cards offset: 3 %}
+    {% if card.title and card.summary %}
+    {% assign card_href = card.link | default: card.url %}
+    <article class="note-card note-card-row-2 song-card-{{ card.position }}">
+      <a href="{{ card_href | relative_url }}" class="note-link" aria-label="Read {{ card.title }}">
+        <div class="note-head">
+          <div class="note-inner">
+            <img src="{{ site.baseurl }}{{ card.dir }}{{ card.thumbnail }}" class="note-thumb" alt="{{ card.title }} cover image">
+            <div class="note-copy">
+              <div class="card-meta">Essay</div>
+              <h3 class="card-title">{{ card.title }}</h3>
+              <p class="card-text">{{ card.summary }}</p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
