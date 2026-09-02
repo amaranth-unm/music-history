@@ -416,7 +416,7 @@ HOME PAGE FEATURE DESIGN
   max-width: none;
   height: var(--note-art-height);
   object-fit: cover;
-  object-position: center;
+  object-position: center top;
   border: 0;
   border-bottom: 1px solid rgba(212, 175, 55, 0.5);
   border-radius: 0;
