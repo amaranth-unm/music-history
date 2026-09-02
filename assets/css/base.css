@@ -426,17 +426,17 @@ HOME PAGE FEATURE DESIGN
 
 .note-card-row-1:nth-child(1),
 .note-card-row-2:nth-child(3) {
-  transform: translateY(2.6rem);
+  transform: none;
 }
 
 .note-card-row-1:nth-child(2),
 .note-card-row-2:nth-child(2) {
-  transform: translateY(0.7rem);
+  transform: none;
 }
 
 .note-card-row-1:nth-child(3),
 .note-card-row-2:nth-child(1) {
-  transform: translateY(2.8rem);
+  transform: none;
 }
 
 .note-card:hover .note-head {
