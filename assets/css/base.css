@@ -354,38 +354,8 @@ HOME PAGE FEATURE DESIGN
   align-items: center;
   min-height: 24rem;
   width: 100%;
-  --note-width: 20.5rem;
-  --note-height: 21.5rem;
-}
-
-.note-card.song-card-1 {
-  --note-width: 20.25rem;
-  --note-height: 21rem;
-}
-
-.note-card.song-card-2 {
-  --note-width: 28rem;
-  --note-height: 28.75rem;
-}
-
-.note-card.song-card-3 {
-  --note-width: 20.5rem;
-  --note-height: 21.25rem;
-}
-
-.note-card.song-card-4 {
-  --note-width: 26.16rem;
-  --note-height: 26.16rem;
-}
-
-.note-card.song-card-5 {
-  --note-width: 19.4rem;
-  --note-height: 19.8rem;
-}
-
-.note-card.song-card-6 {
-  --note-width: 23.65rem;
-  --note-height: 24.2rem;
+  --note-width: 23.65rem; /* Use the size of the first card on the bottom row */
+  --note-height: 24.2rem; /* Use the size of the first card on the bottom row */
 }
 
 .note-link {
