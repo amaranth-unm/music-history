@@ -356,6 +356,7 @@ HOME PAGE FEATURE DESIGN
   width: 100%;
   --note-width: 23.65rem; /* Use the size of the first card on the bottom row */
   --note-height: 24.2rem; /* Use the size of the first card on the bottom row */
+  --note-art-height: calc(var(--note-height) / 3); /* artwork = upper third */
 }
 
 .note-link {
@@ -375,7 +376,7 @@ HOME PAGE FEATURE DESIGN
   justify-content: center;
   width: 100%;
   min-height: var(--note-height);
-  padding: 1.3rem 1.2rem 1.45rem;
+  padding: 0;
   border: 0.5rem solid rgba(212, 175, 55, 0.9);
   border-radius: 50%;
   background: rgba(17, 17, 17, 0.75);
@@ -389,6 +390,7 @@ HOME PAGE FEATURE DESIGN
   inset: 0.9rem;
   border: 1px solid rgba(212, 175, 55, 0.35);
   border-radius: 50%;
+  z-index: 2;
 }
 
 .note-inner {
@@ -398,21 +400,27 @@ HOME PAGE FEATURE DESIGN
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  align-self: stretch;
   width: 100%;
   height: 100%;
   text-align: center;
   gap: 0.5rem;
-  padding-top: 0.3rem;
+  padding: calc(var(--note-art-height) + 1.1rem) 1.6rem 1.45rem;
 }
 
 .note-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  max-width: 8rem;
-  height: 8rem;
+  max-width: none;
+  height: var(--note-art-height);
   object-fit: cover;
-  border: 2px solid rgba(212, 175, 55, 0.5);
-  border-radius: 0.9rem;
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+  object-position: center;
+  border: 0;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.5);
+  border-radius: 0;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
   background: rgba(255, 255, 255, 0.02);
 }
 
