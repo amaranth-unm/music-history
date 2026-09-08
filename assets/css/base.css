@@ -344,6 +344,22 @@ HOME PAGE FEATURE DESIGN
   --note-art-height: calc(var(--note-height) / 2); /* artwork = upper third */
 }
 
+.eyebrow {
+  display: inline-block;
+  margin-bottom: 0.85rem;
+  padding: 0.45rem 0.8rem;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  border-radius: 999px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--champagne-gold);
+  background: rgba(212, 175, 55, 0.08);
+}
+
+
 .note-link {
   position: relative;
   display: block;
