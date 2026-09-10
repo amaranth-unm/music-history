@@ -9,7 +9,6 @@ summary: This song, by Bessie Smith, is known as one of the most fundamental son
 header-image: images/smith-handbill-3-crop.jpg
 header-title: "St. Louis Blues"
 header-position: 0px
-category: Song
 geo: [37.88, -81.08]
 placename: New River Gorge National Park
 toc-section: first
