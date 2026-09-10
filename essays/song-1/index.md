@@ -1,4 +1,5 @@
 ---
+title: “St. Louis Blues” by Bessie Smith
 Title: “St. Louis Blues” by Bessie Smith
 position: 1
 Authors: Lauren Duewall, Elizabeth Muirhead, M. Roman Ubias

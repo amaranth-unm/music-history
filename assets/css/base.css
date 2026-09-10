@@ -356,7 +356,7 @@ HOME PAGE FEATURE DESIGN
   width: 100%;
   --note-width: 23.65rem; /* Use the size of the first card on the bottom row */
   --note-height: 24.2rem; /* Use the size of the first card on the bottom row */
-  --note-art-height: calc(var(--note-height) / 3); /* artwork = upper third */
+  --note-art-height: calc(var(--note-height) / 2); /* artwork = upper half */
 }
 
 .note-link {
